@@ -1,6 +1,7 @@
 # zp-lagou
 基于vue2.0 + element-ui + mongodb + node.js + express的招聘网站
 # 目录大致
+```shell
 ├── build                      // 构建相关  
 ├── config                     // 配置相关
 ├── exampleImgs                // 项目示例图片
@@ -26,7 +27,7 @@
 │   ├── App.vue                // 入口页面
 │   ├── main.js                // 入口 加载组件 初始化
 ├── static                     // 第三方不打包资源
-│   └── Tinymce                // 富文本
+│   └── ueditor                // 富文本
 ├── .babelrc                   // babel-loader 配置
 ├── .gitignore                 // git 忽略项
 ├── eslintrc.js                // eslint 配置项
@@ -35,3 +36,4 @@
 ├── package.json               // 包依赖配置
 └── README.md                  // 说明文件
 
+```
