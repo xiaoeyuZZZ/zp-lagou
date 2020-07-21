@@ -1,0 +1,33 @@
+.search-wrapper {
+  margin: 0 auto 35px;
+  background-color: #f2f5f4;
+
+  .contain-header {
+    margin: 0 auto;
+    padding: 30px 0 28px;
+    width: 960px;
+    display: flex;
+
+    .search-input {
+      width: 835px;
+
+      .el-input__inner {
+        height: 50px;
+        line-height: 50px;
+        border-radius: 0px;
+      }
+    }
+
+  }
+}
+.contain-content{
+  .el-radio-button__inner {
+    background: unset ;
+    border: unset !important;
+    border-radius: unset !important;
+  }
+  .el-radio-button--small .el-radio-button__inner {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "element-ui";
+
+body {
+  cursor: default;
+  font-size: 14px;
+}
+
+ul li {
+  list-style: none;
+}
+
+:root {
+  --mainColor: #1890ff;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+

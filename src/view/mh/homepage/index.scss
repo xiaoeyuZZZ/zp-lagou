@@ -1,0 +1,66 @@
+.top-contain {
+  background: #F2F5F4;
+
+  .contain-header {
+    margin: auto;
+    background: #F2F5F4;
+    padding: 30px 0 28px;
+    width: 900px;
+    display: flex;
+
+    .search-input {
+      width: 762px;
+
+      .el-input__inner {
+        height: 50px;
+        line-height: 50px;
+        border-radius: 0px;
+      }
+
+      el-input-group__append, .el-input-group__prepend {
+        background-color: #00b38a;
+        color: #fff;
+        border: 1px solid #00b38a;
+        border-radius: 0px;
+      }
+    }
+  }
+}
+.top-background {
+  background: url("../../../assets/images/top.jpeg") center center no-repeat;
+  height: 80px;
+};
+.top-login {
+  background: #00b38a;
+  &-picture{
+    height: 120px;
+    width: 1200px;
+    margin: auto;
+  }
+  .login-button{
+    position: relative;
+    float: right;
+    margin-top: 42px;
+    .button{
+      margin-left: 10px;
+      width: 100px;
+      float: left;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      color: #fff;
+      opacity: .8;
+      border: 1px solid #fff;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+    .button:hover{
+      background: rgba(255,255,255,.25);
+    }
+  }
+}
+.el-footer{
+  line-height: 60px;
+  text-align: center;
+  background: #F2F5F4;
+}

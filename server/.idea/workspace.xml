@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92b70382-ab9f-4045-8a99-bcc27b743d58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/exportExcel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/mh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/mhUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/api/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/assets/images/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/assets/images/loginLife.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/assets/images/logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/assets/images/top.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/packages/components/admin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/packages/components/editor/editor.test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/packages/components/editor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/packages/components/login/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/packages/components/register/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/packages/components/register/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/packages/components/slider/leftMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/router/zp-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/router/zp-mh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/store/user/cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tools/htmlToPdf/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/carousel/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/carousel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/company/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/company/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/editorInfo/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/editorInfo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/menu/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/menu/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/mhUser/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/mhUser/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/personnel/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/personnel/dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/personnel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/resources/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/admin/resources/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/addPosition/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/addPosition/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/editorAccount/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/editorAccount/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/editorCompany/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/editorCompany/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/introduce/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/job-management/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/job-management/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/seeker-management/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/seeker-management/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/company/seeker-management/seeker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/company/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/company/companyDetails.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/company/detailsInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/company/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/company/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/company/jobInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/deliveryBox/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/deliveryBox/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/editorInfo/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/editorInfo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/homepage/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/homepage/dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/homepage/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/homepage/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/jobs/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/jobs/details.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/jobs/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/jobs/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/person/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/person/dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/view/mh/person/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/formula/formula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/formula/formula.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/formula/formula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/formula/images/formula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/image/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/image/images/upload1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/image/images/upload2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/link/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/lang/zh-cn/images/imglabel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/css/umeditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/caret.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/pop-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/umeditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/ueditor/umeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/assets/icon/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/assets/icon/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/assets/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/assets/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/assets/style/_var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../src/assets/style/_var.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/packages/components/header-user/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/packages/components/header-user/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/packages/components/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/packages/components/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/packages/components/login/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../src/packages/components/login/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/packages/components/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/packages/components/login/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/packages/components/slider/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/packages/components/slider/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/packages/components/slider/renderMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/packages/components/slider/renderMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/router/zw-12345.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/router/zp-company.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/store/user/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/store/user/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/store/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/store/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/store/user/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/store/user/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/csac/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/dchm/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/httss/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/view/company/introduce/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/view/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/mlhm/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/preview/bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/view/company/preview/bar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/preview/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/view/company/preview/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/preview/line.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/view/company/preview/line.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/preview/pie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../src/view/company/preview/pie.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/ros/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/view/ucs/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>usersRouter</find>
+      <find>formidable</find>
+      <find>updateFile</find>
+      <find>delete</find>
+      <find>f</find>
+      <find>save</find>
+      <find>positionList</find>
+      <find>filter</find>
+      <find>tows</find>
+      <find>execCallback</find>
+      <find>execute</find>
+      <find>result</find>
+      <find>data</find>
+      <find>res</find>
+      <find>total</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/routes/updateFile.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/updateFile.js" />
+        <option value="$PROJECT_DIR$/routes/mh.js" />
+        <option value="$PROJECT_DIR$/routes/mhUser.js" />
+        <option value="$PROJECT_DIR$/routes/admin.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/exportExcel.js" />
+        <option value="$PROJECT_DIR$/db/models.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92b70382-ab9f-4045-8a99-bcc27b743d58" name="Default Changelist" comment="" />
+      <created>1585733316145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585733316145</updated>
+      <workItem from="1585733322079" duration="2000" />
+      <workItem from="1585733424610" duration="12267000" />
+      <workItem from="1585755037715" duration="1715000" />
+      <workItem from="1585762679960" duration="292000" />
+      <workItem from="1585807318427" duration="12042000" />
+      <workItem from="1585902950381" duration="5419000" />
+      <workItem from="1586234522875" duration="20958000" />
+      <workItem from="1586321398138" duration="19860000" />
+      <workItem from="1586408893021" duration="12933000" />
+      <workItem from="1586435698136" duration="141000" />
+      <workItem from="1586497785839" duration="19428000" />
+      <workItem from="1586588232473" duration="11785000" />
+      <workItem from="1586685915428" duration="3359000" />
+      <workItem from="1586758944437" duration="11823000" />
+      <workItem from="1586791338837" duration="3284000" />
+      <workItem from="1586843497941" duration="5054000" />
+      <workItem from="1586930174231" duration="7394000" />
+      <workItem from="1587104463869" duration="1333000" />
+      <workItem from="1587274055413" duration="1238000" />
+      <workItem from="1587393900785" duration="233000" />
+      <workItem from="1587446277032" duration="250000" />
+      <workItem from="1587470776066" duration="4613000" />
+      <workItem from="1587476230725" duration="1174000" />
+      <workItem from="1587531876634" duration="8232000" />
+      <workItem from="1587555326774" duration="526000" />
+      <workItem from="1587989507209" duration="138000" />
+      <workItem from="1588497097224" duration="62000" />
+      <workItem from="1589606757870" duration="596000" />
+      <workItem from="1589683296276" duration="58000" />
+      <workItem from="1589865501591" duration="62000" />
+      <workItem from="1589887480496" duration="97000" />
+      <workItem from="1589942871303" duration="232000" />
+      <workItem from="1589968007437" duration="727000" />
+      <workItem from="1590403866283" duration="541000" />
+      <workItem from="1590580025937" duration="989000" />
+      <workItem from="1590638902681" duration="1986000" />
+      <workItem from="1590802224256" duration="1320000" />
+      <workItem from="1590902982367" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="172263000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09513742" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.036144577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/files/5e46abd6e7bce739c4b3d287.jpg" />
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/swagger-ui-express/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3795">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/updateFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/excel-export/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/excel-export/sheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="227" column="59" selection-start-line="227" selection-start-column="55" selection-end-line="227" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mhUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="36" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/exportExcel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="147" column="124" selection-start-line="147" selection-start-column="124" selection-end-line="147" selection-end-column="124" />
+          <folding>
+            <element signature="e#296#1881#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

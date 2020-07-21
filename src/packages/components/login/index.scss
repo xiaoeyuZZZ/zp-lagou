@@ -1,0 +1,46 @@
+.login-body {
+  background-color: #f0f4ff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  height: 450px;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 20vh 0;
+
+  &-image {
+    background-image: url("../../../assets/images/login-logo.png");
+    background-size: cover;
+    background-position: center;
+    width: 25vw;
+    background-color: #00b38a;
+  }
+
+  &-form {
+    -webkit-box-shadow: #c8ceef 2px 7px 10px;
+    box-shadow: #c8ceef 2px 7px 10px;
+    width: 25vw;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    /*单独对element-ui中的input进行样式覆盖*/
+    .el-input__inner {
+      border-top-width: 0px;
+      border-left-width: 0px;
+      border-right-width: 0px;
+      border-radius: 0px;
+      padding: 0px;
+    }
+    ///*单独对element-ui中的button进行样式覆盖*/
+    .el-button--primary{
+      width: 100%;
+      border-radius: 0px;
+    }
+  }
+
+  &-title {
+    text-align: center;
+  }
+}

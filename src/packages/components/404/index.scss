@@ -1,0 +1,58 @@
+.error-body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(240, 242, 245)
+}
+
+.error-message {
+  width: 500px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+  padding: 20px 0;
+}
+
+.error-message>h2 {
+  color: #1482f0;
+  font-size: 32px;
+  margin-bottom: 5%;
+  opacity: 0;
+  animation-name: fadeInDown;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+.error-message>div>p {
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 7%;
+  opacity: 0;
+  animation-name: fadeInDown;
+  animation-duration: .5s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+}
+
+.error-message>button {
+  width: 125px;
+  opacity: 0;
+  height: 40px;
+  background: #1482f0;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 16px;
+  animation-name: fadeInDown;
+  animation-duration: .5s;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+}
+
+
+.error-message>button>a{
+  text-decoration:none;
+  color: white;
+}
+

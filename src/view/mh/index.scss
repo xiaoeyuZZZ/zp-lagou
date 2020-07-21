@@ -1,0 +1,42 @@
+.top-background {
+  background: url("../../assets/images/top.jpeg") center center no-repeat;
+  height: 80px;
+};
+.top-tbar {
+  background: #32373e;
+  &-tabs{
+    width: 1200px;
+    margin: auto;
+    .el-menu.el-menu--horizontal {
+      border-bottom: unset;
+    }
+    .el-menu-item {
+      height: 40px;
+      line-height: 40px;
+      display: inline-block;
+    }
+    .el-menu-item.is-active {
+      background-color: rgb(40, 44, 50) !important;
+    }
+  };
+  .logo{
+    float: left;
+    width: 43px;
+    height: 40px;
+    background-image: url(//www.lgstatic.com/lg-www-fed/common/widgets/header_c/modules/topbar/img/sprite_361857f.png);
+    background-repeat: no-repeat;
+    background-position: -10px -1px;
+    background-size: 64px 128px;
+  }
+}
+
+.el-footer{
+  margin-top: 50px;
+  line-height: 60px;
+  text-align: center;
+  background: #F2F5F4;
+}
+.el-main{
+  padding: 0 !important;
+  min-height: 78vh;
+}
